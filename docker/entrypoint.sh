@@ -1,5 +1,3 @@
 #!/bin/sh
-
-/etc/init.d/XdccDownloaderWeb restart
-
-tail -f /dev/null
+exec /etc/init.d/XdccDownloaderWeb start
+#tail -f /dev/null
