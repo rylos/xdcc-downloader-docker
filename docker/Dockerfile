@@ -20,6 +20,6 @@ COPY docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 EXPOSE 8888
-#ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 #CMD [ "/entrypoint.sh" ]
-CMD ["/usr/bin/python /opt/playxz/XdccDownloaderWeb/XdccDownloaderServer.pyc start"]
+#CMD ["/usr/bin/python /opt/playxz/XdccDownloaderWeb/XdccDownloaderServer.pyc start"]
