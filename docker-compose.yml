@@ -5,7 +5,7 @@ services:
     build: 
       context: .
       dockerfile: docker/Dockerfile
-    image: xdcc-downloader-web
+    image: xdcc-downloader-web-rylos
     container_name: xdcc_downloader_web
     ports:
       - "9999:8888"
