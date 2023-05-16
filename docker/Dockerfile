@@ -22,4 +22,4 @@ RUN chmod +x /entrypoint.sh
 EXPOSE 8888
 #ENTRYPOINT ["/entrypoint.sh"]
 #CMD [ "/entrypoint.sh" ]
-CMD ["/opt/playxz/XdccDownloaderWeb/XdccDownloaderServer.pyc start"]
+CMD ["/usr/bin/python /opt/playxz/XdccDownloaderWeb/XdccDownloaderServer.pyc start"]
