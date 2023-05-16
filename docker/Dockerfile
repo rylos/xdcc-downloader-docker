@@ -20,5 +20,5 @@ COPY docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 EXPOSE 8888
-
-CMD [ "/entrypoint.sh" ]
+ENTRYPOINT ["/entrypoint.sh"]
+#CMD [ "/entrypoint.sh" ]
